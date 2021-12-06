@@ -33,7 +33,7 @@
       <classpath refid="build.classpath"/>
     </javac>
     <copy todir="${build.dir}/classes">
-      <fileset dir="${src.dir}" excludes="**/*.java"/>
+      <fileset dir="${src.dir}" excludes="**/*.java"/
     </copy>
   </target>
 
